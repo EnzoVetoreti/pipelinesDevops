@@ -26,7 +26,7 @@ jobs:
 
     - name: Run tests with coverage
       run: |
-        coverage run -m unittest discover -s arquivos_py -p 'exercicio3_appTest.py'
+        coverage run -m unittest discover -s arquivos_py -p 'exercicio3_teste.py'
         coverage report
 
 

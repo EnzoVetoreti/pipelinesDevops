@@ -31,4 +31,4 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
     - name: Run exercicio 2
-      run: python ./arquivos_py/exercicio2_teste.py
+      run: python ./arquivos_py/exercicio2.py
