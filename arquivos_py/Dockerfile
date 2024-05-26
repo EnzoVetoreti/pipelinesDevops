@@ -1,9 +1,9 @@
 FROM python:3.10
 
 WORKDIR /app
-COPY . .
+COPY . /app
 
-RUN pip install flask
+RUN pip install -r /app/requirements.txt
 
 EXPOSE 5000
 
