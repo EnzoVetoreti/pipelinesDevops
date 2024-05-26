@@ -20,6 +20,12 @@ jobs:
         push: true
         tags: |
           enzovetoreti/flask-app:latest
+          enzovetoreti/flask-app:v1
         registry: docker.io
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
+
+    - name: Push image to Docker Hub
+      run: |
+        docker tag enzovetoreti/flask-app:latest enzovetoreti/flask-app:latest
+        docker push enzovetoreti/flask-app:latest
