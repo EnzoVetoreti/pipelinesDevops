@@ -7,4 +7,4 @@ RUN pip install flask
 
 EXPOSE 5000
 
-CMD ["python", "exercicio3.py"]
+CMD ["python", "arquivos_py/exercicio3.py"]
