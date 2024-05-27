@@ -3,9 +3,8 @@ FROM python:3.10
 WORKDIR /app
 COPY . /app
 
-RUN pip install psycopg2
-RUN pip install selenium
+RUN pip install flask
 
 EXPOSE 5000
 
-CMD ["python", "dbCotacao.py"]
+CMD ["python", "exercicio3.py"]

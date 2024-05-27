@@ -1,3 +1,5 @@
 datetime
 coverage
 flask
+selenium
+psycopg2
