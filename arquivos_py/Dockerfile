@@ -3,8 +3,8 @@ FROM python:3.10
 WORKDIR /app
 COPY . /app
 
-RUN pip install flask
+RUN pip install requirements.txt
 
 EXPOSE 5000
 
-CMD ["python", "exercicio3.py"]
+CMD ["python", "dbCotacao.py"]
