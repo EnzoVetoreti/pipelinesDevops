@@ -28,5 +28,5 @@ jobs:
         file: arquivos_py/Dockerfile
         push: true
         tags: |
-          enzovetoreti/flask-app:latest
-          enzovetoreti/flask-app:v1
+          enzovetoreti/pipelinesDevops:latest
+          enzovetoreti/pipelinesDevops:v1
