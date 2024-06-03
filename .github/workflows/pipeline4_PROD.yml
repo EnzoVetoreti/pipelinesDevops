@@ -28,5 +28,5 @@ jobs:
         file: arquivos_py/Dockerfile
         push: true
         tags: |
-          enzovetoreti/pipelinesDevops:latest
-          enzovetoreti/pipelinesDevops:v1
+          enzovetoreti/pipelinesdevops:latest
+          enzovetoreti/pipelinesdevops:v1
